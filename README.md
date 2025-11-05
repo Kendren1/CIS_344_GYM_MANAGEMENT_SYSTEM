@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/23347639/README.md)
 CIS-344 Gym Web Application: Jorge Santana, Richard Fathalla, Kendren Aguilar.
 
  Overview
