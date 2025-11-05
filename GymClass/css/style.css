@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+/* === Header and Navigation === */
+header {
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 3px solid #e63946;
+}
+
+header h1 {
+  color: #e63946;
+  font-size: 1.8em;
+}
+
+nav a {
+  color: #f1f1f1;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e63946;
+}
+
+/* === Welcome Section (Home Page) === */
+.welcome-section {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 80px 20px;
+  border-bottom: 3px solid #e63946;
+}
+
+.welcome-section h2 {
+  color: #e63946;
+  font-size: 2.4em;
+  margin-bottom: 10px;
+}
+
+.welcome-section p {
+  color: #ccc;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.welcome-section button {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.welcome-section button:hover {
+  background-color: #ff4d5a;
+}
+
+/* === Features Section === */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  background-color: #1a1a1a;
+}
+
+.feature-card {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #ccc;
+}
+
+/* === Trainer Dashboard === */
+.trainer-dashboard {
+  padding: 60px 30px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.trainer-dashboard h2 {
+  color: #e63946;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.trainer-dashboard p {
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.trainer-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.trainer-profile {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+
+.trainer-profile h3 {
+  color: #e63946;
+  margin-bottom: 8px;
+}
+
+.trainer-profile p {
+  color: #ccc;
+  font-size: 0.95em;
+}
+
+/* === Forms (Membership, Login, Trainer Add) === */
+.form-section {
+  padding: 50px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.form-section h2 {
+  text-align: center;
+  color: #e63946;
+  margin-bottom: 25px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #222;
+  color: #fff;
+}
+
+form button {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #ff4d5a;
+}
+
+/* === Class List === */
+.class-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  background-color: #1a1a1a;
+  gap: 20px;
+}
+
+.class-card {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.class-card h3 {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.class-card p {
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.class-card button {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.class-card button:hover {
+  background-color: #ff4d5a;
+}
+
+/* === Footer === */
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 15px;
+  border-top: 3px solid #e63946;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .features, .trainer-list, .class-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card, .trainer-profile, .class-card {
+    width: 90%;
+  }
+}
